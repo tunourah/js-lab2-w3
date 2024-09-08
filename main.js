@@ -34,7 +34,7 @@ if (numberOfMembers === 1) {
 }   else if (numberOfMembers > 4) {   
   console.log("this is a large group");
 }
-
+ 
 
 // q3
 
@@ -89,4 +89,45 @@ if (flavor === "vanilla" || flavor === "chocolate" && vessel === "cone" || vesse
     console.log(`I'd like two scoops of ${flavor} ice cream in a ${vessel} with ${toppings}.`);
 } else {
     console.log("No match");
+}
+   
+
+// challenge
+
+//1 
+
+let word = " Tuwaiq ";
+
+if (word.length <3) {
+    console.log("The word is too short!");
+} else if (word.length >= 3) {
+    console.log(word.split("").reverse().join(""));   
+}
+
+
+//2
+
+let sentence = "I am a software engineer";
+if (sentence.includes("engineer")) {
+     console.log(" the word is found and you are a software engineer");
+} else {
+    console.log(" the word is not found");
+}
+
+//3 
+
+let str = " no one is perfect "; 
+if (str.startsWith("no")) {
+    console.log("The string starts with 'no'");
+} else {    
+    console.log("The string does not start with 'no'");
+}
+
+
+// 4 
+  let sentenceTow = "I am a web developer trying to learn new things and improve my skills";
+if (sentenceTow.length > 10) { 
+    console.log(sentenceTow.toUpperCase());
+} else{
+    console.log("The sentence is not long enough");
 }
